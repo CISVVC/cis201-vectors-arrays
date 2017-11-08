@@ -13,12 +13,17 @@
 
 void read_data(std::vector<double>& vec)
 {   
+    /*
     vec.push_back(727.7);
     vec.push_back(1086.5);
     vec.push_back(1091.0);
     vec.push_back(1361.3);
     vec.push_back(1490.5);
     vec.push_back(1956.1);
+    */
+    double value;
+    while( std::cin >> value )
+        vec.push_back(value);
 }
 
 void print_vector(const std::vector<double>& vec)
