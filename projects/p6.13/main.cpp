@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 
-using namespace std;
 
 class Transaction
 {
@@ -15,7 +14,7 @@ public:
 private:
    int day;
    double amount;
-   string description;
+   std::string description;
 };
 
 const int MAX_DAY = 30;
@@ -30,8 +29,8 @@ public:
    double get_average_daily_balance();
    double get_minimum_daily_balance();
 private:
-   vector<Transaction> transactions;
-   vector<double> daily_balances;
+   std::vector<Transaction> transactions;
+   std::vector<double> daily_balances;
 };
 
 int main()
