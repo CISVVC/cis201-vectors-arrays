@@ -19,6 +19,7 @@ int main()
 {
     char str[SIZE];
     char str2[SIZE];
+
     str[0] = 'H';
     str[1] = 'e';
     str[2] = 'l';

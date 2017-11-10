@@ -18,13 +18,12 @@ void print_array(int array[],int size)
 
 int main()
 {
-    const int ITEMS = 10;
     srand(time(0));
 
-    int array[ITEMS];
+    int array[50];
 
-    fill_array(array,ITEMS);
-    print_array(array,ITEMS);
+    fill_array(array,50);
+    print_array(array,1000);
 
     return 0;
 }
